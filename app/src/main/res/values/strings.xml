@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectPertamaKotlin</string>
+    <string name="firstvalue">Nilai Pertama</string>
+    <string name="secondvalue">Nilai Kedua</string>
+    <string name="kalkulator">Hitung</string>
+    <string name="hasil">Hasil</string>
+</resources>

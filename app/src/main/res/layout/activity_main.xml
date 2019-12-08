@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="KALKULATOR KOTLIN"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_firstvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:hint="@string/firstvalue"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edt_secondvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_firstvalue"
+        android:hint="@string/secondvalue"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_kalkulator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_secondvalue"
+        android:gravity="center"
+        android:text="@string/kalkulator" />
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_kalkulator"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="@string/hasil"
+        android:textSize="15sp" />
+
+</RelativeLayout>
